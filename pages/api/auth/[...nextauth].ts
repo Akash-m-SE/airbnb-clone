@@ -49,9 +49,9 @@ export const authOptions: AuthOptions = {
           throw new Error("Invalid credentials");
         }
 
-        console.log("From NExt auth");
-        console.log("User Details", user);
-        console.log("Credentials", credentials);
+        // console.log("From Next auth");
+        // console.log("User Details", user);
+        // console.log("Credentials", credentials);
 
         return user;
       },

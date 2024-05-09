@@ -24,7 +24,7 @@ const ImageUpload: React.FC<ImageUploadProps> = ({
 }) => {
   const handleUpload = useCallback(
     (result: any) => {
-      console.log("from cloudinary = ", result);
+      // console.log("from cloudinary = ", result);
       onChange(result.info.secure_url);
       onPublicIdChange(result.info.public_id);
     },
