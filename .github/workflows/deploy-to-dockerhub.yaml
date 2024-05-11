@@ -27,4 +27,4 @@ jobs:
           tags: akashm9923/airbnb-clone:latest
 
       - name: Verify Pushed Image
-        uses: docker pull akashm9923/airbnb-clone:latest
+        run: docker pull akashm9923/airbnb-clone:latest
