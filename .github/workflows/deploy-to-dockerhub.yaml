@@ -25,8 +25,8 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: akashm9923/airbnb-clone:latest
-          build-args: |
-            DATABASE_URL = ${{ secrets.DATABASE_URL }}
+        env:
+          DATABASE_URL: ${{ secrets.DATABASE_URL }}
 
       - name: Verify Pushed Image
         run: docker pull akashm9923/airbnb-clone:latest
