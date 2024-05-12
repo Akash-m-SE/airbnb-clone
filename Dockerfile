@@ -6,6 +6,9 @@ COPY . .
 
 RUN npm install
 RUN npx prisma generate
+
+ARG DATABASE_URL
+
 RUN npm run build
 
 EXPOSE 3000
