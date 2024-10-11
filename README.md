@@ -38,7 +38,8 @@
 
 You can access the live version of Airbnb Clone here: [Live Demo](https://cloudhavenstays-airbnb-clone.vercel.app/)
 
-## Environment Setup 🛠️ {#environment-setup}
+<a name="environment-setup"></a>
+## Environment Setup 🛠️
 
 To run this project, you will need to add the following environment variables to your .env.local file (a template has been provided as .env.example)
 
